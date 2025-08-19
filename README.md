@@ -1,2 +1,29 @@
-# Foro-Hub--C---Back-End
-ForoHub es una API para gestionar tópicos en un foro de prueba. Permite crear, ver, actualizar y eliminar tópicos.
+# ForoHub
+
+ForoHub es una API para gestionar tópicos en un foro de prueba.
+Permite crear, ver, actualizar y eliminar tópicos.
+
+## Tecnologías
+
+- Java 17
+- Spring Boot
+- Spring Data JPA
+- H2 Database (en memoria)
+
+## Configuración
+
+En `application.properties`:
+
+```properties
+spring.datasource.url=jdbc:h2:mem:forohub
+spring.datasource.driverClassName=org.h2.Driver
+spring.datasource.username=sa
+spring.datasource.password=08070201
+spring.jpa.database-platform=org.hibernate.dialect.H2Dialect
+spring.jpa.hibernate.ddl-auto=update
+spring.h2.console.enabled=true.
+
+
+tambien recibi ayuda de chat gpt y luri para ayudar en mis errores y poder solucionarlos .
+
+Camila andrea Torres Gomez
