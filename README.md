@@ -6,10 +6,11 @@ Permite crear, ver, actualizar y eliminar tópicos.
 ## Tecnologías
 
 - Java 17
-- Spring Boot
-- Spring Data JPA
+- Spring Boot 3
+- Spring Security
+- JWT (JSON Web Token)
 - H2 Database (en memoria)
-
+- Maven
 ## Configuración
 
 En `application.properties`:
